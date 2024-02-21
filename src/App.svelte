@@ -42,7 +42,11 @@
   
 
 </script>
-
+<style>
+  main {
+    background-color: aqua;
+  }
+</style>
 <main class="w-[80rem] h-[100%] absolute">
 
   <!-- Frequency and Voltage -->
@@ -75,7 +79,7 @@
       <div class="font-[Cambria] total">
         <span class="">{total.toFixed(0)}</span>
         <span class="total-mwh text-[white] text-[3rem] font-[500] ml-[-20px]">
-          Units
+          MW
         </span>
       </div>
 
@@ -85,10 +89,10 @@
   <div class="absolute top-[23.6rem] ">
     <div class="grid justify-around  grid-cols-4 w-[100vw] ">
       
-      <Unitcards name="DATA1" value={dashboardData[0]+30} maxValue={100}/>
-      <Unitcards name="DATA2" value={dashboardData[1]-10} maxValue={100}/>
-      <Unitcards name="DATA3" value={dashboardData[2]} maxValue={100}/>
-      <Unitcards name="DATA4" value={dashboardData[3]} maxValue={100}/>
+      <Unitcards name="Apapa" value={dashboardData[0]+30} maxValue={100}/>
+      <Unitcards name="Lekki" value={dashboardData[1]-10} maxValue={100}/>
+      <Unitcards name="Oregun" value={dashboardData[2]} maxValue={100}/>
+      <Unitcards name="Surulere" value={dashboardData[3]} maxValue={100}/>
   
     </div>
 
