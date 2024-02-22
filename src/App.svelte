@@ -74,7 +74,7 @@
       <div class="text-white text-center text-[2.25rem] font-[500] font-[Cambria]">Total</div>
       <div class="font-[Cambria] total">
         <span class="">{total.toFixed(0)}</span>
-        <span class="total-mwh text-[white] text-[3rem] font-[500] ml-[-20px]">
+        <span class="total-mwh text-[white] text-[3rem] font-[700] ml-[-20px]">
           MW
         </span>
       </div>
