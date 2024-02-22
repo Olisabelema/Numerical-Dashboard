@@ -28,7 +28,7 @@
     //yellow="#F9D91B"
 </script>
 
-<div class="relative grid-item w-[18.25rem] h-[20.3125rem] rounded-[20px] ml-[17px] bg-[rgba(217,217,217,0.10)] text-white">
+<div class="relative grid-item w-[18.25rem] h-[20.3125rem] rounded-[20px] ml-[17px] bg-[#7F8C8D] text-white">
     <div class="flex justify-center mt-[2.81rem]">
       <svg width="231" height="116" viewBox="0 0 231 116" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g filter="url(#filter0_i_79_34)">
@@ -68,7 +68,7 @@
       </svg>
     </div>
     <div class="absolute w-[100%] top-[7.69rem] text-center h-[4.34rem] text-[4rem] leading-[100%] font-[500] font-['Helvetica_Neue']">
-      {value>0?value.toFixed(0):0}
+      {value>0?value.toFixed(1):0}
     </div>
     <div class="absolute h-[1.75rem] top-[12.44rem] w-[100%] text-center  text-[1.5rem] font-[600rem]">
       MW

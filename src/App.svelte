@@ -18,7 +18,7 @@
     dateTime=GetDateTime()
     
   }
-  setInterval(GetData,2000);
+  setInterval(GetData,4000);
 
   function GetDateTime(){
     var dateObj=new Date();
@@ -42,22 +42,18 @@
   
 
 </script>
-<style>
-  main {
-    background-color: aqua;
-  }
-</style>
+
 <main class="w-[80rem] h-[100%] absolute">
 
   <!-- Frequency and Voltage -->
   <div class="absolute left-[2.94rem] top-[1.81rem] text-white font-['Helvetica_Neue']">
-    <!-- <div class="text-[2.25rem] font-[500] text-left">132<span class="ml-[4px]">KV</span></div> -->
-    <div class="text-left text-[2.5rem] font-[700]">{dashboardData.length} Boards<span class="ml-[4px]"></span></div>
+    <div class="text-[2.25rem] font-[700] text-left">132<span class="ml-[4px]">KV</span></div>
+    <div class="text-left text-[2.5rem] font-[700]">50Hz<span class="ml-[4px]"></span></div>
   </div>
 
   <!-- Logo -->
   <div class="absolute flex top-[2.38rem] justify-center w-[100%]">
-    <img class="w-[12.5rem] h-[4.9rem]" src="/logo.png" alt="LOGO">
+    <img class="w-[12.5rem] h-[4.9rem]" src="/logo.JPG" alt="LOGO">
   </div>
 
   <!-- Date and time -->
